@@ -1,2 +1,2 @@
 # solveit.agepoly.ch
-[solveit](solveit.agepoly.ch) website
+[solveit](http://solveit.agepoly.ch) website
