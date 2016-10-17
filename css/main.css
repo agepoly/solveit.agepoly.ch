@@ -23,7 +23,9 @@ body {
 	background: #f7f7f7;
 }
 
-#logo > h1 {
+#logo {
+	margin-left: auto;
+	margin-right: auto;
 	margin-top: 5rem;
 	font-size: 10rem;
 	text-align: center;
