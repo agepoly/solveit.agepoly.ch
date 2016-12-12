@@ -45,7 +45,7 @@ body {
 }
 #footer {
 	background: #f7f7f7;
-	position: absolute;
+	position: fixed;
 	left: 0;
 	right: 0;
 	bottom: 0;
@@ -53,4 +53,25 @@ body {
 }
 #footer > p {
 	margin: 0;
+}
+
+.nav-button {
+	background-color: blue;
+	margin: auto;
+	width: 150px;
+	text-align: center;
+}
+
+.nav-bar {
+	position: fixed;
+	top: 0px;
+	background: white;
+	z-index: 999;
+	width: 100%;
+	padding-top: 10px;
+}
+
+.main-container{
+	position: relative;
+	margin-top: 50px;
 }

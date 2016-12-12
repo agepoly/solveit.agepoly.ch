@@ -20,17 +20,48 @@
         <!--[if lte IE 9]>
             <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
         <![endif]-->
-
+			<div class="nav-bar row">
+				<div class= "two columns">
+					<h1>hello</h1>
+				</div>
+				<div class= "two columns">
+					<a id="home-button" class="button nav-button" data-scroll="#intro" onchange="scrollto(this);">Home</a>
+				</div>
+				<div class= "two columns">
+					<a id="schedule-button" class="button nav-button" href="">Schedule</a>
+				</div>
+				<div class= "two columns">
+					<a id="faqButton" class="button nav-button" href="faq.html">FAQ</a>
+				</div>
+				<div class= "two columns">
+					<a id="partners-button" class="button nav-button" data-scroll="#partners" onchange="scrollto(this);">Partners</a>
+				</div>
+				<div class= "one column"></div>
+				<div class= "one column">TEST</div>
+				
+			</div>
+			<div class="main-container">
 				<div id="splash">
 					<div id="logo"><img src="img/logo.png" style="max-width: 100%"></img></div>
 				</div>
-				<div class="container">
+				<div class="container" id="intro">
 					<p>Solveit is a weekly event at <b>EPFL</b> centered around civic issues and technology.</p>
 					<p>The event is set to start at the beginning of 2017</p>
 				</div>
-				<div id="footer">
-					<p>This is an event by <a href="https://agepoly.ch/">AGEPoly</a>, the EPFL student association</p>
+				<div class="container" id="schedule">
+					<h3>SCHEDULE</h3>
 				</div>
+				<div class="container" id="faq">
+					<h3>FAQ</h3>
+				</div>
+				<div class="container" id="partners">
+					<h3>PARTNERS</h3>
+				</div>
+			</div>
+			<div id="footer">
+				<p>This is an event by <a href="https://agepoly.ch/">AGEPoly</a>, the EPFL student association</p>
+			</div>
+			
 
         <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
         <script>
@@ -38,5 +69,6 @@
             ga('create','UA-XXXXX-Y','auto');ga('send','pageview')
         </script>
         <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+		<script type="text/javascript" src="js/script.js"></script>
     </body>
 </html>
